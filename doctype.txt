@@ -1,0 +1,33 @@
+HTML DOCTYPE:
+=================
+
+ its declaration part, it declare that which kind of web design we are making.
+
+
+HTML LAYOUT:
+=================
+
+it design our page layout.
+
+HEADER:
+=============
+
+we can say it declare the heading of any website.
+
+META:
+========
+
+meta tag declare to meta data through browser.
+
+
+HTML SCRIPT:
+=============
+
+
+A script is a small piece of program that can add interactivity to your website.
+
+
+
+
+
+
