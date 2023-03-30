@@ -1,0 +1,137 @@
+1) What is internet?
+
+
+ Internet: Internet is a global network that connects billions of computers across 
+           the world with each other.
+
+
+ ex: like one person wants to communicate with another person so how this thing is possible??
+      
+     so to communicate with this two person we require multiple computers and that we call internet.
+
+   2) if we connect the global system of interconnected computers so,this will be internet.
+
+
+there are two ways to connect the computers
+
+1) through wire : to connect the computer with wire is complex or you can say its tough to connect with it,
+if we want to connect the computers with wire,for ex- we need to connect 10 computers so at this point we 
+need 45 cables to connect with each computer and this is very complex process(9 cable per computer)
+
+ so to reduce this complexcity we use router -router make sure that which device wants the information
+ only that particular decive only gets that message.but there is also some boundary or we can say limitation of
+ one router to connect the decive.
+
+
+so the question is that, what we will do?? to overcome this stuitation?
+
+we will connect multiple routers to connect with each router to communicate with world wide devices.
+
+we also need ISP internet service providers who provides us serives of internet.
+
+companies like BSNL, AIRTEL ,JIO etc are the providers who provides such internet cable servies .
+
+Also we require data center to store our data so that when we request them to display the information
+to our presentation layers that particular key will go to application layer for the authentication and then 
+data layer will gives information to it. 
+
+                  
+2) through wireless.
+
+
+
+
+HTTP AND HTTPS:
+===================
+
+
+ HTTP:  Hypertext Transfer Protocol. 
+        HTTP is an application layer protocol.
+
+        HTTP protocol allows us to transfer the data from the server to the client.
+
+        HTTP is a stateless protocol as each transaction is executed separately without
+        having any knowledge of the previous transactions, which means that once the transaction 
+        is completed between the web browser and the server, the connection gets lost. 
+
+        So,we can say HTTP protocol does not provide the security to the data.
+
+        so, what next?
+
+
+ HTTPS: Hypertext Transfer Protocol Secure.
+
+       This protocol allows transferring the data in an encrypted form. 
+       then HTTPS uses an encryption protocol known as Transport Layer Security,and another Secure socket layers
+       to transfer the data to another device.
+
+
+   this two protocols (TLS AND SSL) uses key infrature for transferring the data.
+   one is public key and another is private key.
+
+
+
+  PRIVATE KEY:Private key: This key is available on the web server, which is managed by the owner of a website.
+             It decrypts the information which is encrypted by the public key.
+
+     EX: GIFT: the gift you are giving to your friend,wrapping the gift you can call encrpt and while opeing the 
+               gift, we can say decrypt method.
+
+
+ PUBLIC KEY: This key is available to everyone. It converts the data into an encrypted form.
+
+
+
+
+DOMAIN NAME:
+
+   A domain name is a string of text that maps to an alphanumeric IP address, used to access a website 
+   from client software. In plain English, a domain name is the text that a user types into a browser
+   window to reach a particular website. For instance, the domain name for Google is ‘google.com’.
+
+   The actual address of a website is a complex numerical IP address (e.g. 192.0.2.2), 
+   but thanks to DNS, users are able to enter human-friendly domain names and be routed to 
+   the websites they are looking for. This process is known as a DNS lookup.
+
+
+
+ EX: https://www.topstechnologies.com
+
+
+ where: http is protocol(set of rule)
+
+        www-(world wide web): sub domain
+
+        topstechnologies: domain name
+
+        
+  the last segment of a domain name or  we can say the part that follows immediately after the "dot" symbol.
+
+  com- top level domain
+
+
+ so we can say domain name is a unqiue name to identifie any website.
+
+
+
+TLDs are mainly classified into two categories: generic TLDs and country-specific TLDs.
+
+Examples of some of the popular TLDs include:
+
+.com -Commercial businesses
+
+.org -Organizations
+
+.net -Network organizations
+
+.gov -government agencies
+
+.edu- Educational
+
+
+
+
+   
+
+
+
