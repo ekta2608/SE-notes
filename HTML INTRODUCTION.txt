@@ -1,0 +1,63 @@
+
+HTML:
+ 
+what is HTML?Where it is used?
+what is the need of HTML?
+
+
+HTML  stands for Hyper Text Markup Language 
+
+
+HyperText simply means "Text within Text"
+
+
+its not any programming language its  used for creating web pages 
+and web applications.
+
+
+Markup language: A markup language is a computer language that is used to apply layout and formatting 
+conventions to a text document. Markup language makes text more interactive and dynamic.
+
+It can turn text into images, tables, links, etc.
+
+
+FEATURE:
+==============
+
+1)easy and simple language
+
+2)effective presentation
+
+3)markup language,so it provides a flexible way to design web pages along with the text
+
+4)It is platform-independent because it can be displayed on any platform like Windows, Linux etc 
+
+5)HTML is a case-insensitive language, which means we can use tags either in lower-case or upper-case
+
+
+STRUCTURE OF HTML 
+======================
+
+
+<!DOCTYPE> // define documentation type
+  
+<html>
+<head>
+<title>...WEBSITE ...</title>
+
+<head>
+
+<body>
+
+// TEXT
+
+<h1>Write Your First Heading</h1>  // UPTO <h6>
+ 
+<p>Write Your First Paragraph.</p> // used for paragraph
+
+ 
+</body>
+
+</html>
+
+
