@@ -1,0 +1,169 @@
+HTML ELEMENT:
+==============
+
+HTML file made of elements
+
+ex:  element in HTML usually consist of a start tag <tag name> and 
+
+     close tag </tag name>.
+
+
+
+Block-level and Inline HTML elements
+For the default display and styling purpose in HTML, all the elements are divided into two categories:
+
+Block-level element:
+
+A block-level element always start with new line and takes the full width of web page, from left to right.
+
+
+Following are the block-level elements in HTML.
+
+ 1) <address>
+ 2) <dd> 
+ 3) <div>
+ 4) <dl>
+ 5) <dt>
+ 6) <footer> 
+ 7) <form>
+ 8) <h1>-<h6> 
+ 9) <header>
+ 10) <hr> 
+ 11) <li> 
+ 12) <main> 
+ 13) <nav> 
+ 14) <p>
+ 15) <pre> 
+ 16) <table> and so on...
+
+
+example:
+==========
+
+<!DOCTYPE html>  
+ <html> 
+ <head>
+ 
+ </head> 
+
+ 
+<body>
+  
+    <div style="background-color: lightblue">This is first div</div>  
+    <div style="background-color: lightgreen">This is second div</div>  
+    <p style="background-color: pink">This is a block level element</p>
+  
+</body> 
+ 
+</html>  
+
+
+
+
+
+Inline element:
+===================
+
+Elements does not start with new line and take width as per requirement.
+
+Inline elements are mostly used with other elements
+
+
+1)<a>
+2)<br>
+3)<i>
+4)<span>
+5)<small>
+6)<big>
+
+so on...
+
+
+example:
+============
+
+
+<!DOCTYPE html> 
+
+ 
+<html>
+ 
+ <head> 
+ 
+ </head>
+  
+<body>  
+
+    <a href="https://www.javatpoint.com/html-tutorial">Click on link</a>
+  
+    <span style="background-color: lightblue">this is inline element</span> 
+ 
+    <p>This will take width of text only</p>
+  
+ </body>  
+
+
+</html>   
+
+
+
+
+HTML Attribute:
+===================
+
+
+HTML attributes are special words which provide additional information about the elements or attributes 
+are the modifier of the HTML element.
+
+Each element or tag can have attributes, which defines the behaviour of that element.
+
+Attributes should always be applied with start tag.
+
+The Attribute should always be applied with its name and value pair.
+
+The Attributes name and values are case sensitive, and it is recommended by W3C that it should be written
+in Lowercase only.
+
+
+You can add multiple attributes in one HTML element, but need to give space between two attributes.
+
+
+
+syntax:
+-------------
+
+      <element attribute_name="value">content</element>
+
+
+<html> 
+ 
+<html>
+  
+<head> 
+ 
+</head>
+  
+<body> 
+ 
+    <h1> This is Style attribute</h1> 
+ 
+   <p style="height: 50px; color: blue">It will add style property in element</p> 
+ 
+    <p style="color: red">It will change the color of content</p>  
+
+</body> 
+
+ 
+</html>  
+
+
+
+
+
+
+
+
+
+
+
+
