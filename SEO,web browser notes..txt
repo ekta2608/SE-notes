@@ -1,0 +1,45 @@
+WHAT is SEO:
+==================
+
+ SEO start for search engin optimization.
+
+ this are two words  search engin and another word optimization.
+
+ Search engin: its a software system that has been created to serach some information which
+ we request to the server or we can say to find information from internet.
+
+ Optimization : the action of making the best or most effective use of situation or resourse.
+
+                  or using something perfectly.
+
+like if i want that my website should be placed in 1st placed when ever somebody enter key ,
+than with the help of SEO this is possible.
+  
+
+SEO is nothing but a software system used for the searching purpose.
+
+we can say we optimized our website for the betterment way of used.
+
+
+ TEXT EDITOR:
+
+ * text editor is a simple computer program that allows users to create, change, or edit plain text files.
+
+ some example are: notepad, notepad++ ,sublime etc
+
+
+
+WEB BROWERS:
+ it is one kinf of software, used to retrive the information from the internet for our purpose.
+
+like : chrom, IE, firfox, safari etc.
+
+
+
+
+
+
+  
+
+ 
+
