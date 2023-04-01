@@ -1,0 +1,22 @@
+// documentation part  
+ define(program)
+
+//link section
+#include<stdio.h>
+
+definition section
+# define PI  3.14 
+
+global declartion 
+
+main()
+{
+declartion part
+executable  part
+}
+
+
+sub program section
+
+
+

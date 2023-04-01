@@ -1,0 +1,246 @@
+Language:
+=======
+The way to communicate b/w two person ,they can use any language of their understanding
+
+
+Programming Language:
+========================
+
+The way of coomunication b/w man and machine is called programming language.
+
+  MAN-------------------------------MACHINE
+
+
+              instruction/commands
+                               ||
+                 set of instruction
+                              ||
+             Program (written in some )
+                            ||
+             Language(is called as)
+                         ||
+             Programming Language
+
+C Basic:
+--------------
+
+Introduction to C: 1972 by dennis ritchie at bell laboatory (AT & T lab in USA)
+
+Application:
+=============
+
+used for OS,compiler design,developing system s/w,
+application software.(ATM, business appl,scentific appl, school management system).
+
+
+Features:
+=================
+
+1.Easy
+2.portable.
+3.case-senstive.             A - a diffenent for machine
+4.structure language.
+5.middle level language.        (pop-- oop)
+6.32 keyword.
+7.extension used in C is .c
+8)General purpose programming language
+9)Powerful/Robust programming language
+
+
+complier:
+============
+
+its read the whole at one time then execute its result.
+
+like we say if we store on movie in our system which is of different language and
+when ever i used to run that movie ,its sublitile hepl me to execute the process. so we can say it store is object code in our system
+
+
+
+interperter:
+=========
+
+it read the program line by line.
+
+like we say,if we went to another country when language is differ, then we hired on meditor so that
+he/she can transalte the language and explain me same vice verse to that particular people also.so we can say
+its dont not save any object code,it will only execute we it call.
+
+C -  32 Keyword:
+========================
+
+int  float  char  void  if   else
+double  static  signed  unsigned  sizeof
+const  struct  union  typedef  switch  case
+while  return  auto  enum  short  default
+long  do  continue  break  goto 
+extern  volatile.
+
+
+ 
+Datatype:Such keywords which are used to declare(create) variables are called keyword.
+         i)   The data type decide the type of value that can be store in variable. int a;
+         ii)  Size of variable in the memory is also decided by datatype. int a=20; 4byte 20*4=80
+         iii) Range of value that can be stored into variable. int 3----wrong, int a=3;  
+ l
+ex : like subject- if we are studing maths subject then we will only perform maths task
+
+variable- are maths numerical values we can say. that when we are performing maths at that time we will only
+deal with numerical values only.
+
+so as datatype and varibale----- when we want to perform interger type value we will apply int datatype and store its value in variable which we will define.
+
+Data types:
+------------
+
+  i)Primary datatypes:Such datatypes are already defined in C language are called primary datatype.
+                      In C language we have following 4 primary data type.
+
+
+      data type keyword          type of value     size          Range
+   
+   a)  int                        integer           2/4byte     -32768 to 32767 /-2147483648 to 2147483647
+   b)  float 23.4                 real              4 byte      -3.4*10^-38 to 3.4*10^38
+   c)  double  2345.6789          real              8 byte      -1.7*10^308 to 1.7*10^308
+   d)  char   'a''-'              single character  1 byte      -128 to 127
+
+
+  ii)Secondary datatypes:(user defined data type): 
+                         discuss later
+
+ 
+Variable:variable is a name given to the memory location. 
+         A variable is used to store value. The value stored in the 
+         variable can be changed(vary). while creating variable we must 
+         follow the rules, which are created for identifiers.
+
+
+Variable are three types:
+i)   Global variable.
+ii)  local variable.
+iii) Static variable.
+
+
+
+Output statement: A statement that is used to print values or information from
+                  program to the output screen or a file, is called output
+                  statement. In C language we use prinf() to print any value
+                  on output screen(monitor). printf() is formatted output function.
+                  It means it requires a format string to print anything. it can print value of any data type.
+
+Syntax of printf():
+-----------------
+  i) To print message:
+      
+     printf("message");
+
+  ii)To print value:
+      
+      printf("formatString", variable);
+   
+       format String:start with % sign,and it specifies
+        the format of the value that is to be printed.
+
+           datatype             formatString
+
+            int                      %d or %i
+            float                    %f      format specificer
+            double                   %lf
+            char                     %c
+
+e.g  i)  int a=10;
+
+       printf("%d",a); 
+       The above statement will print 10.
+
+     ii) int salary=30000;
+       required o/p:My salary is 30000
+       Statement to be used:  printf("My salary is %d",salary);
+
+     iii) int x=10,y=20,z=x+y;
+          required o/p:
+          sum of 10 and 20 is 30
+
+          printf("sum of x: %d and  y:%d is z:%d",x,y,z);
+
+   iv) float x=123.45
+       printf("value of x is %f",x);
+   
+       output: value of x is 123.450000
+
+Input statement:A statement that is used to read value and store that value unto a variable
+                such statement is called input statement.scanf() function is used to read from keyword at program runtime.
+                scanf() is console,formatted,input function.
+
+                console:read value keyword
+                formatted:uses format string
+
+     note: scanf() is also decalred in the stdio.h header file.
+
+ syntax:
+
+       scanf("formatString",&varname);
+        int x;
+        scanf("%d",&x);
+ 
+        int x,y;
+        scanf("%d",&x);
+        scanf("%d",&y);
+         OR
+
+        scanf("%d %d",&x,&y);
+
+
+BASIC STRUCTURE OF C LANGUAGE:
+------------------------------------
+ 1)preprocessor/preprocessive directive:
+    Such instruction or command which perform their task before compilation
+    of program are called preproessor.
+
+    All the preprocessor directives are started with hash symbols( #)
+    
+    e.g: #include
+
+         whenever we use printf() and scanf() in our program then we include stdio.h file.
+       
+        syntax: #include<stdio.h>
+ 
+ 2)comments
+           Comments are used for documentation purpose. comments are ignored by compiler.
+           In C language we use following 2 type comments.
+           i) single line comments
+              //
+           ii)multiline comments
+              /*  
+                .....    
+              */
+
+ 3)user defined functions: Function defined by user are called user defined function.
+
+ 4)global variable:A global variable can be used in our program is called global variable.
+                    A variable which is declared outside main() is a global variable.
+ 5) void main()
+   {
+
+   }
+
+     OR
+
+   int main()
+
+   {
+     return 0;
+   }
+   
+  main() is a function. its name is predefined and its coding is user defined.
+
+  main() is the entry point for the execution of C program.
+  
+  Program can have only one main()
+
+  If a c program does not have main function,then the program can be compiled but
+  cannot be executed.
+
+
+
+
